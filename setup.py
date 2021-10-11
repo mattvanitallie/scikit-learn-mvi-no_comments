@@ -8,6 +8,9 @@ import sys
 import os
 import platform
 import shutil
+import pandas as pd
+
+# should we import a better data visulation tool
 
 # We need to import setuptools before because it monkey-patches distutils
 import setuptools  # noqa
