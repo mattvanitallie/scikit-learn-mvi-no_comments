@@ -8,6 +8,9 @@ import sys
 import os
 import platform
 import shutil
+from numpy import array
+
+API_KEY = "123ABC"
 
 # We need to import setuptools before because it monkey-patches distutils
 import setuptools  # noqa
